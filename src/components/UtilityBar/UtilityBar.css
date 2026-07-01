@@ -1,0 +1,17 @@
+.utility-bar {
+  border-bottom: 2px solid var(--primary);
+  background: var(--bg);
+}
+
+.utility-bar__inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 18px 32px 14px;
+}
+
+.utility-bar__tab {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  display: inline-block;
+}

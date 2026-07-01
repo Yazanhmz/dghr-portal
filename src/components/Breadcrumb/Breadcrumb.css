@@ -1,0 +1,11 @@
+.breadcrumb {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 18px 32px 0;
+}
+
+.breadcrumb__link {
+  font-size: 13px;
+  color: var(--primary);
+  font-weight: 500;
+}

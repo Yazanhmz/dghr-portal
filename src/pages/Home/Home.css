@@ -1,0 +1,24 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__hero-row {
+  display: flex;
+  align-items: flex-start;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home__hero-row .hero {
+  flex: 1;
+  padding-right: 0;
+}
+
+@media (max-width: 960px) {
+  .home__hero-row {
+    flex-direction: column;
+  }
+}
